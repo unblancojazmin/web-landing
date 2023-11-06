@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- Hace saber al navegador que la página esta en castellano -->
+<html lang="es">
+<!--Configuraciones-->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Permite carácteres extraños del alfabeto americano: ñ, á, é... -->
+    <meta charset="utf-8">
+    <!--Título que aparecerá en la pestaña - La estructura será el nombre de la página actual + Descripción del sitio-->
+    <title>Landing ejemplo</title>
+    <!-- Icono que acompañará al title. También será el icono que se guardará a la hora de que hagan un marcador. Se recomienda un tamaño de 32x32 y en PNG     -->
+    <link rel="icon" type="image/avif" href="img/favicom.avif">
+    <!-- (Opcional: Solo Safari) Previsualización en marcadores -->
+    <!-- 180x180 -->
+    <meta name="theme-color"
+          content="#FBEECA"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!--Declara quien es el autor. Sin utilidad práctica -->
+    <meta name="author" content="Valentina Vega">
+    <!-- Declara palabras claves -->
+    <meta name="keywords" content="html, css, javascript">
+    <!-- Declara la descripción de la web. Es utilizado por los motores de busqueda para la previa -->
+    <meta name="description" content="Esto es una landing que estoy haciendo en clase">
+    <!-- Open Graph y Twitter card: Declara como se mostrará la previa del enlace si es compartida por Facebook o alguna otra red social -->
+    <meta property="og:image" content="img/miniatura.png">
+    <meta property="og:title" content="Website">
+    <!-- website, video, audio, article, book o profile -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.imdb.com/title/tt0117500/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@cuenta">
+    <meta name="twitter:creator" content="@cuenta">
+    <!-- Open Graph Imagen completa (Opcional) -->
+    <meta property="og:image:secure_url" content="https://secure.example.com/ogp.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="300">
+    <meta property="og:image:alt" content="A shiny red apple with a bite taken out">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <!-- Normalizador normalize.css: Equilibra los estilos entre los Navegadores -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Tus archivos CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- CSS -->
+
+
+</head>
+<!--Contenido de la web-->
+<body>
+    <main>
+        <section class="hero">
+            <div class="container hero__columns">
+                <div class="hero__text">
+                    <h1 class="title hero__title"> Ponte las manos a la obra y aumenta tus ventas</h1>
+                    <p class="hero__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
+                        aspernatur autem beatae commodi expedita harum inventore, ipsa ipsam itaque iusto magni nam.
+                    </p>
+                    <nav class="nav">
+                        <ul class="ul-reset nav__ul">
+                            <li><a href="#" class="buttom">Suscribirte</a></li>
+                            <li><a href="#" class="buttom buttom--transparent">Comprar planes</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="hero__image">
+                    <img src="img/img2.avif" alt="Portatil" class="image">
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <div class="container">
+                <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti distinctio,
+                    illo in ipsam ipsum laborum natus odit officiis omnis, pariatur provident quae, quaerat quos
+                    similique <a href="#" class="link">sint tempora vitae</a>! Deleniti, itaque.
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

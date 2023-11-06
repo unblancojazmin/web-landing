@@ -1,0 +1,106 @@
+/**
+    Colores:
+
+    color negro: #241C15
+    color fondo: #FBEECA
+    color primario: #007C89
+    color secundario: #C5DBF2
+ **/
+
+/*
+ *Generales
+ */
+
+body {
+    background-color: #FBEECA;
+    font-family: 'Inter', sans-serif;
+    color: #241C15;
+}
+
+/*
+ *Componentes reutilizable
+ */
+
+.title {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.container {
+    margin-inline: auto;
+    padding: 1rem;
+    max-width: 1000px;
+}
+
+.ul-reset {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.buttom {
+    display: inline-block;
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    font-size: 1rem;
+    background-color: #007C89;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buttom:hover {
+    background-color: #C5DBF2;
+    color: #241C15;
+}
+
+.buttom--transparent {
+    background-color: transparent;
+    color: #007C89;
+}
+
+.link {
+    color: #007C89;
+}
+/*
+ *Página Inicio
+ */
+
+.hero {
+    padding-block: 3rem;
+}
+
+.hero__columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+@media (width < 600px) {
+    .hero__columns {
+        grid-template-columns: 1fr
+    }
+}
+
+.hero__title {
+    font-size: 3rem;
+}
+
+.hero__text {
+    font-size: 1.5rem;
+}
+
+.nav__ul {
+    gap: 1rem;
+}
+
+.news {
+    background-color: #C5DBF2;
+}
